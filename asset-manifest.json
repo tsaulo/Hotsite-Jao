@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Hotsite-Jao/static/css/main.3bac30c6.css",
-    "main.js": "/Hotsite-Jao/static/js/main.d1973de2.js",
+    "main.js": "/Hotsite-Jao/static/js/main.daa358b8.js",
     "static/js/453.d873a4a4.chunk.js": "/Hotsite-Jao/static/js/453.d873a4a4.chunk.js",
     "index.html": "/Hotsite-Jao/index.html",
     "main.3bac30c6.css.map": "/Hotsite-Jao/static/css/main.3bac30c6.css.map",
-    "main.d1973de2.js.map": "/Hotsite-Jao/static/js/main.d1973de2.js.map",
+    "main.daa358b8.js.map": "/Hotsite-Jao/static/js/main.daa358b8.js.map",
     "453.d873a4a4.chunk.js.map": "/Hotsite-Jao/static/js/453.d873a4a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bac30c6.css",
-    "static/js/main.d1973de2.js"
+    "static/js/main.daa358b8.js"
   ]
 }
