@@ -36,7 +36,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="banner">
-        <img src="/BANNER.png" className="jao" alt="Banner Principal" />
+        <img src="/bannerjao.png" className="jao" alt="Banner Principal" />
 
         {macas.map((maca) => (
           <img
