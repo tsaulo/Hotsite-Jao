@@ -1,0 +1,23 @@
+html{
+  background-color: #ffdfc2;
+}
+
+.containercentro{
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: clamp(300px, 50vw, 1000px);
+}
+
+.containertudo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 900px){
+  .containercentro{
+    overflow: visible;
+    flex-wrap: wrap;
+    width: clamp(200px, 38vh, 1000px);
+}
+}

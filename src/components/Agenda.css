@@ -1,0 +1,32 @@
+.containerimg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgdesktop{
+    display: block;
+    width: clamp(300px, 50vw, 1000px);
+    
+}
+
+.imgmovel{
+    display: none;
+}
+
+@media (max-width: 900px){
+    .containerimg{
+        display: flex;
+        height: clamp(100px, 60vh, 1000px); 
+        margin: 0 auto;
+    }
+
+    .imgdesktop{
+        display: none;
+    }
+
+    .imgmovel{
+        display: block;
+        object-fit: cover;
+    }
+}

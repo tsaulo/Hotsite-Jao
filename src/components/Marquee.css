@@ -1,0 +1,43 @@
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+    background: black;
+    color: #ffdfc2;
+    font-size: clamp(12px, 16px, 24px);
+    padding-top: clamp(8px, 10px, 12px);
+    padding-bottom: clamp(8px, 10px, 12px);
+    font-family: 'Lexend Mega', sans-serif;
+    margin-bottom: 3%;
+}
+
+.marquee-track{
+    display: flex;
+    width: fit-content;
+    animation: marquee 40s linear infinite;
+}
+
+.marquee-content {
+    flex-shrink: 0;
+    padding-right: 0;
+    white-space: nowrap;
+}
+
+
+@keyframes marquee {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-25%); }
+}
+
+@media (max-width: 768px){
+    .marquee-container {
+        overflow: hidden;
+        width: 100%;
+        background: black;
+        color: #ffdfc2;
+        font-size: clamp(8px, 10px, 12px);
+        padding-top: clamp(6px, 8px, 10px);
+        padding-bottom: clamp(6px, 8px, 10px);
+        font-family: 'Lexend Mega', sans-serif;
+        margin-bottom: 8%;
+    }
+}
